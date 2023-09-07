@@ -1,17 +1,11 @@
-1) The purpose of this analysis is to develop a machine-learning model for credit risk assessment, with the goal of a predictive model capable of distinguishing between healthy loans (label 0) and high-risk loans (label 1) based on relevant data points. This model would then be able to automate part of the credit risk analysis process.
+The purpose of this analysis is to develop a machine-learning model for credit risk assessment, with the goal of a predictive model capable of distinguishing between healthy loans (label 0) and high-risk loans (label 1) based on relevant data points. This model would then be able to automate part of the credit risk analysis process.
 
-2) The Results: Here are the key performance metrics of the machine learning model:
-•	Accuracy Score:
-•	In the first analysis (without oversampling), the model achieved a balanced accuracy score of 0.952.
-•	In the second analysis (with oversampling), the model achieved a higher balanced accuracy score of 0.994.
-•	Precision Score:
-•	For healthy loans (label 0), the precision was perfect (1.00) in both analyses.
-•	For high-risk loans (label 1), precision was 0.85 in the first analysis and 0.84 in the second analysis.
-•	Recall Score:
-•	For healthy loans (label 0), the recall was 0.99 in both analyses.
-•	For high-risk loans (label 1), the recall was 0.91 in the first analysis and 0.99 in the second analysis.
+The Results: Here are the key performance metrics of the machine learning model:
+•	Accuracy Score: In the first analysis (without oversampling), the model achieved a balanced accuracy score of 0.952. In the second analysis (with oversampling), the model achieved a higher balanced accuracy score of 0.994.
+•	Precision Score: For healthy loans (label 0), the precision was perfect (1.00) in both analyses. For high-risk loans (label 1), precision was 0.85 in the first analysis and 0.84 in the second analysis. 
+•	Recall Score:	For healthy loans (label 0), the recall was 0.99 in both analyses.	For high-risk loans (label 1), the recall was 0.91 in the first analysis and 0.99 in the second analysis.
 
-3) Summary: The machine learning model has demonstrated high performance in predicting credit risk for both healthy and high-risk loans by exhibiting high accuracy, with balanced accuracy scores of 0.952 and 0.994, respectively, indicating its ability to correctly classify loans.
+Summary: The machine learning model has demonstrated high performance in predicting credit risk for both healthy and high-risk loans by exhibiting high accuracy, with balanced accuracy scores of 0.952 and 0.994, respectively, indicating its ability to correctly classify loans.
 
 For healthy loans (label 0), the model consistently achieved perfect precision and very high recall, indicating its precision in identifying loans that are genuinely healthy while capturing the vast majority of these loans.
 
